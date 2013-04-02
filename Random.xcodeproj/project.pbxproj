@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4B698A7A170B214900E2DA99 /* RandomController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B698A79170B214900E2DA99 /* RandomController.m */; };
 		4BFA5AD51709C10C00531C09 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4BFA5AD41709C10C00531C09 /* Cocoa.framework */; };
 		4BFA5ADF1709C10C00531C09 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 4BFA5ADD1709C10C00531C09 /* InfoPlist.strings */; };
 		4BFA5AE11709C10C00531C09 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 4BFA5AE01709C10C00531C09 /* main.m */; };
@@ -16,6 +17,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		4B698A78170B214900E2DA99 /* RandomController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RandomController.h; sourceTree = "<group>"; };
+		4B698A79170B214900E2DA99 /* RandomController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RandomController.m; sourceTree = "<group>"; };
 		4BFA5AD11709C10C00531C09 /* Random.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Random.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4BFA5AD41709C10C00531C09 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
 		4BFA5AD71709C10C00531C09 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
@@ -85,6 +88,8 @@
 				4BFA5AE61709C10C00531C09 /* RandomAppDelegate.h */,
 				4BFA5AE71709C10C00531C09 /* RandomAppDelegate.m */,
 				4BFA5AE91709C10C00531C09 /* MainMenu.xib */,
+				4B698A78170B214900E2DA99 /* RandomController.h */,
+				4B698A79170B214900E2DA99 /* RandomController.m */,
 				4BFA5ADB1709C10C00531C09 /* Supporting Files */,
 			);
 			path = Random;
@@ -169,6 +174,7 @@
 			files = (
 				4BFA5AE11709C10C00531C09 /* main.m in Sources */,
 				4BFA5AE81709C10C00531C09 /* RandomAppDelegate.m in Sources */,
+				4B698A7A170B214900E2DA99 /* RandomController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -304,6 +310,7 @@
 				4BFA5AF01709C10C00531C09 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
